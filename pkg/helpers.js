@@ -57,7 +57,7 @@ function getNotionResources() {
   let folder = '';
   switch (process.platform) {
     case 'darwin':
-      folder = '/Applications/Notion.app/Contents/Resources';
+      folder = '/Applications/Notion Home.app/Contents/Resources';
       break;
     case 'win32':
       folder = process.env.LOCALAPPDATA + '\\Programs\\Notion\\resources';
